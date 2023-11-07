@@ -27,6 +27,6 @@ Screenshot:\
 ![](https://i.imgur.com/0eqNFLS.png)
 #### This error is resolved by heading to
 %USERPROFILE%\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim\
-#### and running make in the Git Bash terminal
+#### and running the 'make' command in Git Bash terminal
 screenshot:
 ![](https://i.imgur.com/4R2QVZG.png)
