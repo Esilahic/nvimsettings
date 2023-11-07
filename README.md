@@ -3,7 +3,7 @@ The neovim config uploaded is a linux variant thanks to WSL. This is a personali
 The installation steps below are for Windows since it is a bit more convaluded than expected.
 
 ### Installation 
-Ensure the below programs are installed:\
+Ensure the below programs are installed:
 - [GIT](https://git-scm.com/download/win)
 - [CMake Download Page](https://cmake.org/download/)
 - [C++ Build Tools Download Page](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)
