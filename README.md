@@ -9,6 +9,16 @@ As always [GIT](https://git-scm.com/download/win)\
 [C++ Build Tools Download Page](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)\
 Ensure [ripgrep](https://github.com/BurntSushi/ripgrep#installation) and [fd](https://github.com/sharkdp/fd#on-windows) are installed for Telescope to function as expected.
 
+Lastly, in %USERPROFILE%\AppData\Local\nvim\lua\plugins\
+go to file init.lua and change <sup>(line 232 as of writing)</sup>
+ ```
+ dependencies = { "nvim-treesitter/nvim-treesitter", 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+ ```
+to
+ ```
+ dependencies = { "nvim-treesitter/nvim-treesitter", 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+```
+
 ### Error Handle
 
 The main error that had me wracking my brain for hours was on regarding Telescope\
