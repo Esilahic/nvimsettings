@@ -19,7 +19,7 @@ to
  dependencies = { "nvim-treesitter/nvim-treesitter", 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 ```
 
-### Errors
+### Errors!
 
 The main error that had me wracking my brain for hours was on regarding Telescope\
 "`'fzf' extension doesn't exist or isn't installed`"\
