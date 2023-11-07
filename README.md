@@ -4,9 +4,9 @@ The installation steps below are for Windows since it is a bit more convaluded t
 
 ### Installation 
 Ensure the below programs are installed:\
-- [GIT](https://git-scm.com/download/win)\
-- [CMake Download Page](https://cmake.org/download/)\
-- [C++ Build Tools Download Page](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)\
+- [GIT](https://git-scm.com/download/win)
+- [CMake Download Page](https://cmake.org/download/)
+- [C++ Build Tools Download Page](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation) and [fd](https://github.com/sharkdp/fd#on-windows)
 
 in %USERPROFILE%\AppData\Local\nvim\lua\plugins\
