@@ -3,6 +3,11 @@ The neovim config uploaded is a linux variant thanks to WSL. This is a personali
 The installation steps below are for Windows since it is a bit more convaluded than expected.
 
 ### Installation 
+
+# on Windows (powershell)
+```
+git clone https://github.com/Esilahic/nvimsettings.git $env:USERPROFILE\AppData\Local\nvim\ 
+```
 Ensure the below programs are installed:
 - [GIT](https://git-scm.com/download/win)
 - [CMake Download Page](https://cmake.org/download/)
