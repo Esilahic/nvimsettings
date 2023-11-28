@@ -24,7 +24,7 @@ to
 ### Error Handling
 
 The main error that had me wracking my brain for hours was on regarding Telescope\
-`"'fzf' extension doesn't exist or isn't installed"\`
+`"'fzf' extension doesn't exist or isn't installed"`\
 Screenshot:\
 ![](https://i.imgur.com/0eqNFLS.png)
 #### This error is resolved by heading to
