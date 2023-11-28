@@ -14,13 +14,13 @@ opt.showmode = false
 
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
-
+opt.swapfile = false
 -- Indenting
 opt.expandtab = true
-opt.shiftwidth = 4 
+opt.shiftwidth = 2
 opt.smartindent = true
-opt.tabstop = 4
-opt.softtabstop = 4
+opt.tabstop = 2
+opt.softtabstop = 2
 
 opt.fillchars = { eob = " " }
 opt.ignorecase = true

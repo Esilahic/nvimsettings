@@ -9,6 +9,7 @@ lspconfig.clangd.setup {
     client.server_capabilities.signatureHelpProvider = false
     on_attach(client, bufnr)
   end,
+  filetypes = {"c", "cpp" },
   capabilities = capabilities,
 }
 
